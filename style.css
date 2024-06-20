@@ -82,3 +82,32 @@ section article li {
     margin-bottom: 10px;
 
 }
+
+section article p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+code{
+    /* display: block;
+    text-align: left;
+   
+     */
+    /* white-space:pre-line;
+    line-height: 2; */
+    background: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    body{
+        flex-direction: column;
+    }
+    header{
+        height: 200px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+}
